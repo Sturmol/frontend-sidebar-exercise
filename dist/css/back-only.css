@@ -1,0 +1,34 @@
+body {
+  color: #536ed5;
+  font-family: sofialight;
+  background: #d6d3d3;
+  /*  background-image: url("bb_1024px.png"); */
+  background: linear-gradient(bottom, #77a951 0%, #efeff1 0%, #f8f8f8 22%, #f0efef 45%, #f2f2f2 67.99%, #fff 100%); }
+
+@font-face {
+  font-family: sofialight;
+  src: url("sofialight/SofiaProLight-webfont.eot"), url("sofialight/SofiaProLight-webfont.woff") format("woff"), url("sofialight/SofiaProLight-webfont.ttf") format("truetype"), url("sofialight/SofiaProLight-webfont.svg#sofialight") format("svg");
+  /* Legacy iOS */ }
+
+.content {
+  color: #F0F0EF;
+  font-family: sofialight; }
+
+@media screen and (max-width: 1600px) {
+  body {
+    background-image: url("bb_1600px.png"); } }
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url("bb_1024px.png"); } }
+
+@media screen and (max-width: 1220px) {
+  body {
+    background-image: url("bb_1220px.png"); } }
+
+/* i-phones */
+@media screen and (max-width: 480px) {
+  body {
+    -webkit-text-size-adjust: none;
+    background-image: -webkit-linear-gradient(bottom, #77a951 0%, #efeff1 0%, #f8f8f8 22%, #f0efef 45%, #f2f2f2 67.99%, #fff 100%);
+    background-image: url("iphone.png"); } }
